@@ -50,13 +50,13 @@ python app.py
 Acesse no navegador: **http://127.0.0.1:5000/**
 
 ## 📊 Funcionalidades
-✅ Exibição de gráficos sobre adoção de pets ao longo do tempo 📈
-✅ Análise da evolução da ansiedade baseada em dados 📊
-✅ Estatísticas gerais e cálculo de correlação entre adoção e ansiedade 🔢
-✅ Interface web responsiva e interativa 🎨
+ Exibição de gráficos sobre adoção de pets ao longo do tempo 
+ Análise da evolução da ansiedade baseada em dados 
+ Estatísticas gerais e cálculo de correlação entre adoção e ansiedade 
+ Interface web responsiva e interativa 
 
 
 
 ## 📜 Licença
-Este projeto é de código aberto e pode ser modificado conforme necessário. 😊
+Este projeto é de código aberto e pode ser modificado conforme necessário. 
 
