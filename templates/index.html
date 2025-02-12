@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impacto dos Pets na Ansiedade</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Impacto dos Pets na Ansiedade</h1>
+
+        <div class="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Nós somos <strong> Renan Eduardo, Ivanilson Paixão e Davi Parente </strong>, somos estudante do IFB da disciplina de Programação para a internet e este é o nosso projeto sobre a relação entre adoção de animais e ansiedade. 
+            Utilizei Python, Flask, Pandas e bibliotecas de visualização para analisar dados e apresentar insights de forma interativa.</p>
+        </div>
+
+        <div class="grafico">
+            <h2>Interesse na Adoção</h2>
+            <img src="data:image/png;base64,{{ grafico }}" alt="Gráfico de Interesse na Adoção">
+        </div>
+
+        <div class="grafico">
+            <h2>Índice de Ansiedade ao Longo do Tempo</h2>
+            <img src="data:image/png;base64,{{ grafico_ansiedade }}" alt="Gráfico de Ansiedade">
+        </div>
+
+        <div class="estatisticas">
+            <h2>Estatísticas</h2>
+            <!--<p><strong>Média da Ansiedade:</strong> {{ estatisticas['Média da Ansiedade'] | round(2) }}</p>-->
+            <p><strong>Total de resultados sobre Adoções:</strong> {{ estatisticas['Total de Adoções'] }}</p>
+            <p><strong>Correlação entre Pets e Ansiedade:</strong> {{ estatisticas['Correlação Pets-Ansiedade'] | round(2) }}</p>
+        </div>
+
+        <div class="contato">
+            <h2>Contato</h2>
+            <p>Quer saber mais sobre o projeto? Entre em contato comigo:</p>
+            <ul>
+                <li><strong>Email:</strong> [SEU EMAIL]</li>
+                <li><strong>GitHub:</strong> <a href="[SEU GITHUB]" target="_blank">[github.com/seu-usuario]</a></li>
+                <li><strong>LinkedIn:</strong> <a href="[SEU LINKEDIN]" target="_blank">[linkedin.com/in/seu-nome]</a></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
