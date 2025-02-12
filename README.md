@@ -2,8 +2,8 @@
 Este projeto foi desenvolvido por **Renan eduardo, Ivanilson Paixão e Davi Parente**, estudantes de Tecnologia em Sistemas para a Internet.
 
 
-# Trabalho para a disciplina de programação para internet
-Professora: Kadidja Valéria
+## Trabalho para a disciplina de programação para internet
+## Professora: Kadidja Valéria
 
 # Impacto dos Pets na Ansiedade 🐶💙
 
