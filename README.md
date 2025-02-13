@@ -14,7 +14,7 @@ Este projeto analisa a relação entre a adoção de pets e os índices de ansie
 
 ## Link do video explicativo: https://www.youtube.com/watch?v=xl4O3X_wXVs
 
-## 🔧 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Python** 
 - **Flask** (para desenvolvimento web)
 - **Pandas** (manipulação de dados)
@@ -36,22 +36,22 @@ Este projeto analisa a relação entre a adoção de pets e os índices de ansie
 
 ##  Como Rodar o Projeto
 
-### 1️⃣ Pré-requisitos
+###  Pré-requisitos
 - Ter **Python 3** instalado
 - Ter um ambiente virtual configurado (recomendado)
 
-### 2️⃣ Instalação das Dependências
+###  Instalação das Dependências
 ```bash
 pip install flask pandas matplotlib seaborn
 ```
 
-### 3️⃣ Executando a Aplicação
+###  Executando a Aplicação
 ```bash
 python app.py
 ```
 Acesse no navegador: **http://127.0.0.1:5000/**
 
-## 📊 Funcionalidades
+## Funcionalidades
  Exibição de gráficos sobre adoção de pets ao longo do tempo 
  Análise da evolução da ansiedade baseada em dados 
  Estatísticas gerais e cálculo de correlação entre adoção e ansiedade 
@@ -59,6 +59,6 @@ Acesse no navegador: **http://127.0.0.1:5000/**
 
 
 
-## 📜 Licença
+## Licença
 Este projeto é de código aberto e pode ser modificado conforme necessário. 
 
