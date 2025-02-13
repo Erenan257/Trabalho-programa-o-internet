@@ -12,7 +12,7 @@ Este projeto analisa a relação entre a adoção de pets e os índices de ansie
 
 ## Dados coletados com o google Trends 
 
-##Link do video explicativo: https://www.youtube.com/watch?v=xl4O3X_wXVs
+## Link do video explicativo: https://www.youtube.com/watch?v=xl4O3X_wXVs
 
 ## 🔧 Tecnologias Utilizadas
 - **Python** 
